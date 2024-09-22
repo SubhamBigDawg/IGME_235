@@ -1,0 +1,96 @@
+/* Reset and general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #9007f2;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2.5rem;
+}
+
+/* Header styles */
+#main-header {
+    background: #9007f2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#main-header h1 {
+    font-size: 2.5rem;
+    color: #fdf914;
+}
+
+/* Profile image styles */
+.profile-image {
+    display: block;
+    width: 50%;
+    height: auto;
+    border-radius: 15%;
+    margin: 20px auto;
+    border: 5px solid #9007f2;
+}
+
+/* Bio styles */
+#bio {
+    background: #fdf914;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 2%;
+}
+
+/* Project links styles */
+.project-links {
+    list-style-type: none;
+    padding: 2%;
+}
+
+.project-links li {
+    margin: 5px 0;
+}
+
+.project-links a {
+    display: block;
+    padding: 10px;
+    background: #fdf914;
+    color: #ff0000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-links a:hover {
+    background: #9007f2;
+    color: #fdf914;
+}
+
+/* Link states */
+a:visited { color: #791b1b; }
+a:active { color: #ffffff; }
+a:focus { outline: 10px solid #000000; }
+
+/* GitHub link styles */
+#github-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #9007f2;
+    color: #2e70cc;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#github-link:hover {
+    background: #2e70cc;
+    color: #9007f2;
+}
+
+#github-link:visited {color: #330853;}
